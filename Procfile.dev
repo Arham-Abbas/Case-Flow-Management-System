@@ -1,0 +1,4 @@
+web: python3 web/manage.py runserver 8000
+engine1: python3 engine1/manage.py runserver 8001
+engine2: python3 engine2/manage.py runserver 8002
+engine3: python3 engine3/manage.py runserver 8003
