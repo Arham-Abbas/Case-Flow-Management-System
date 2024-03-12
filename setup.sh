@@ -23,5 +23,8 @@ then
     sudo service postgresql start
     sudo -u postgres psql -f db_initialize.sql
     sudo service postgresql stop
+    echo -e '\nFixing a certain dependency module\n'
+    version=$(python3 --version 2>&1 | sed 's/Python //; s/\.[0-9]//2')
+    sed -i 's/pydantic\./pydantic.v1./g' /usr/local/lib/python$version/dist-packages/docquery/ocr_reader.py
     echo -e '\nSetup Complete'
 fi
