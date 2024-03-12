@@ -1,9 +1,7 @@
 from django.db import models
-from django.contrib.postgres.fields import ArrayField
-from uuid import uuid4
 import datetime
 
-class FIR_data_model(models.Model):
+class firData(models.Model):
     fir_number = models.CharField(max_length=255)
     state = models.CharField(max_length=255)
     district = models.CharField(max_length=255)
@@ -25,4 +23,4 @@ class FIR_data_model(models.Model):
     remarks = models.TextField()
 
     class Meta:
-        db_table = 'FIR.\"FIR_data_model\"'
+        db_table = 'FIR.\"firData\"'
