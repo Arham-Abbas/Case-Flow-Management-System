@@ -25,16 +25,18 @@
 ### Set permission
 
     Open terminal and navigate to the cloned directory. Type and press enter the following command
-        chmod +x *.sh
+        ``` chmod +x *.sh ```
 
 ### Install required dependencies
 
-    Install the required dependencies by running ./setup.sh in your terminal. Please note that the required files are large and may require a high speed internet. Refrain from using mobile data to avoid incurring unexpected charges. Interrupting the setup script is not recommended.
+    Install the required dependencies by running following code in your terminal.
+    ``` ./setup.sh ```
+     Please note that the required files are large and may require a high speed internet. Refrain from using mobile data to avoid incurring unexpected charges. Interrupting the setup script is not recommended.
 
 ### Launch the server
 
-    To start the server, use sudo ./runserver.sh in your terminal. Ensure that all four servers are running by testing the following URL from your browser.
-        localhost:8000
-        localhost:8001
-        localhost:8002
-        localhost:8003 
+    To start the server, use ``` sudo ./runserver.sh ``` in your terminal. Ensure that all four servers are running by testing the following URL from your browser.
+    **localhost:8000**
+    **localhost:8002**
+    **localhost:8001**
+    **localhost:8003** 
