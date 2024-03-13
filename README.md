@@ -37,7 +37,7 @@ Please note that the required files are large and may require a high speed inter
 ### Launch the server
 
 To start the server, use ``` sudo ./runserver.sh ``` in your terminal. Ensure that all four servers are running by testing the following URL from your browser.
-- localhost:8000
-- localhost:8002
-- localhost:8001
-- localhost:8003 
+``` localhost:8000 ```
+``` localhost:8002 ```
+``` localhost:8001 ```
+``` localhost:8003 ``` 
