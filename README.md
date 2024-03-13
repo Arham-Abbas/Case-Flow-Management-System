@@ -24,7 +24,8 @@ Get the software files from the source, by cloning this repository.
 
 ### Set permission
 
-Open terminal and navigate to the cloned directory. Type and press enter the following command
+Open terminal and navigate to the cloned directory. Type and press enter the following command.
+
 ``` chmod +x *.sh ```
 
 ### Install required dependencies
@@ -36,7 +37,7 @@ Please note that the required files are large and may require a high speed inter
 ### Launch the server
 
 To start the server, use ``` sudo ./runserver.sh ``` in your terminal. Ensure that all four servers are running by testing the following URL from your browser.
-**localhost:8000**
-**localhost:8002**
-**localhost:8001**
-**localhost:8003** 
+- localhost:8000
+- localhost:8002
+- localhost:8001
+- localhost:8003 
